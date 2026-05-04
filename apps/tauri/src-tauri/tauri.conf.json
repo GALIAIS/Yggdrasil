@@ -1,0 +1,44 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Yggdrasil",
+  "version": "0.1.0",
+  "identifier": "com.galiais.yggdrasil.desktop",
+  "build": {
+    "beforeDevCommand": "node ../../scripts/renderer-dev-tauri.mjs",
+    "beforeBuildCommand": "node ../../scripts/renderer-build-tauri.mjs",
+    "devUrl": "http://127.0.0.1:5173",
+    "frontendDist": "../../renderer/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "Yggdrasil",
+        "width": 1520,
+        "height": 960,
+        "minWidth": 1366,
+        "minHeight": 820
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": true,
+    "icon": ["icons/icon.ico", "icons/icon.png"],
+    "targets": ["nsis"]
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/GALIAIS/Yggdrasil/releases/latest/download/latest.json"
+      ],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDcxQUFBRUUwMzQxQUIwOUUKUldTZXNCbzA0SzZxY2NjeU9USFNUTFdzSnRONlM3aFF6b25aTlZWc0cycGZDR0hieXhBK1Y5Sk4K",
+      "windows": {
+        "installMode": "passive"
+      }
+    }
+  }
+}

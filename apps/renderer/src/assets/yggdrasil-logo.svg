@@ -1,0 +1,82 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yggdrasil-logo-red" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff1a40" />
+      <stop offset="50%" stop-color="#e60023" />
+      <stop offset="100%" stop-color="#800013" />
+    </linearGradient>
+    <linearGradient id="yggdrasil-logo-silver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#e2e8f0" />
+      <stop offset="100%" stop-color="#64748b" />
+    </linearGradient>
+    <linearGradient id="yggdrasil-logo-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01" />
+    </linearGradient>
+    <filter id="yggdrasil-logo-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur result="blur" stdDeviation="3" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="#120505" />
+  <rect x="32" y="32" width="448" height="448" rx="100" fill="none" opacity="0.8" stroke="#000000" stroke-width="4" />
+  <rect x="34" y="34" width="444" height="444" rx="98" fill="none" stroke="url(#yggdrasil-logo-border)" stroke-width="2" />
+
+  <g fill="none" stroke="url(#yggdrasil-logo-silver)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 150 120 L 110 120 L 90 100 L 50 100" stroke-width="3" />
+    <circle cx="50" cy="100" r="4" fill="#ffffff" stroke="none" />
+    <path d="M 140 140 L 100 140 L 80 160 L 60 160" stroke-width="1.5" />
+    <circle cx="60" cy="160" r="2.5" fill="#ffffff" stroke="none" />
+    <path d="M 120 180 L 90 180 L 70 200 L 40 200" stroke-width="4" />
+    <circle cx="40" cy="200" r="5" fill="#ffffff" stroke="none" />
+
+    <path d="M 392 312 L 422 312 L 442 292 L 472 292" stroke-width="4" />
+    <circle cx="472" cy="292" r="5" fill="#ffffff" stroke="none" />
+    <path d="M 372 352 L 412 352 L 432 372 L 452 372" stroke-width="1.5" />
+    <circle cx="452" cy="372" r="2.5" fill="#ffffff" stroke="none" />
+    <path d="M 362 392 L 402 392 L 422 412 L 462 412" stroke-width="3" />
+    <circle cx="462" cy="412" r="4" fill="#ffffff" stroke="none" />
+  </g>
+
+  <g fill="none" stroke="url(#yggdrasil-logo-red)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 362 120 L 402 120 L 422 100 L 462 100" stroke-width="3" />
+    <circle cx="462" cy="100" r="4" fill="#ff1a40" stroke="none" />
+    <path d="M 372 140 L 412 140 L 432 160 L 452 160" stroke-width="1.5" />
+    <circle cx="452" cy="160" r="2.5" fill="#ff1a40" stroke="none" />
+    <path d="M 392 180 L 422 180 L 442 200 L 472 200" stroke-width="4" />
+    <circle cx="472" cy="200" r="5" fill="#ff1a40" stroke="none" />
+
+    <path d="M 120 312 L 90 312 L 70 292 L 40 292" stroke-width="4" />
+    <circle cx="40" cy="292" r="5" fill="#ff1a40" stroke="none" />
+    <path d="M 140 352 L 100 352 L 80 372 L 60 372" stroke-width="1.5" />
+    <circle cx="60" cy="372" r="2.5" fill="#ff1a40" stroke="none" />
+    <path d="M 150 392 L 110 392 L 90 412 L 50 412" stroke-width="3" />
+    <circle cx="50" cy="412" r="4" fill="#ff1a40" stroke="none" />
+  </g>
+
+  <path d="M 256 64 Q 64 160, 256 256 T 256 448" fill="none" opacity="0.35" stroke="#ffffff" stroke-dasharray="0 18" stroke-linecap="round" stroke-width="1.5" />
+  <path d="M 256 64 Q 448 160, 256 256 T 256 448" fill="none" opacity="0.45" stroke="#ff1a40" stroke-dasharray="0 18" stroke-linecap="round" stroke-width="1.5" />
+
+  <g filter="url(#yggdrasil-logo-glow)">
+    <path d="M 256 64 Q 64 160, 256 256 T 256 448" fill="none" stroke="url(#yggdrasil-logo-silver)" stroke-linecap="round" stroke-width="20" />
+    <path d="M 256 64 Q 64 160, 256 256 T 256 448" fill="none" opacity="0.8" stroke="#ffffff" stroke-linecap="round" stroke-width="4" />
+  </g>
+
+  <path d="M 256 64 Q 448 160, 256 256 T 256 448" fill="none" stroke="#120505" stroke-linecap="round" stroke-width="32" />
+
+  <g filter="url(#yggdrasil-logo-glow)">
+    <path d="M 256 64 Q 448 160, 256 256 T 256 448" fill="none" stroke="url(#yggdrasil-logo-red)" stroke-linecap="round" stroke-width="20" />
+    <path d="M 256 64 Q 448 160, 256 256 T 256 448" fill="none" opacity="0.8" stroke="#ff1a40" stroke-linecap="round" stroke-width="4" />
+  </g>
+
+  <circle cx="256" cy="64" r="8" fill="#120505" stroke="#ffffff" stroke-width="2" />
+  <circle cx="256" cy="64" r="3" fill="#ffffff" filter="url(#yggdrasil-logo-glow)" />
+
+  <circle cx="256" cy="448" r="8" fill="#120505" stroke="#ff1a40" stroke-width="2" />
+  <circle cx="256" cy="448" r="3" fill="#ff1a40" filter="url(#yggdrasil-logo-glow)" />
+</svg>

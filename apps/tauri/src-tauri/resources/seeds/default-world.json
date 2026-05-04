@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "comment": "爱尔奎特",
+      "content": "爱尔奎特·布伦史塔德是《月姬》中的真祖公主，被称作“真祖的白姬”。她以压倒性的力量追猎死徒与罗亚，是月姬故事的核心人物之一。她外表近似不谙世事的少女，但本质上是极其古老且危险的存在。",
+      "enabled": true,
+      "id": "tsukihime-arcueid",
+      "keys": ["爱尔奎特", "爱尔奎特·布伦史塔德", "白姬", "真祖公主"],
+      "scanDepth": 2,
+      "selective": false,
+      "tokenBudget": 380
+    },
+    {
+      "comment": "真祖",
+      "content": "真祖并非普通吸血鬼，而是由星球侧诞生的自然灵式存在，被视为最初的吸血种。她们与死徒不同，吸血冲动并非单纯生理需求，而是一种内在缺陷与心理性的冲动。真祖能够使用大规模干涉现实的能力，例如 Marble Phantasm。",
+      "enabled": true,
+      "id": "tsukihime-true-ancestor",
+      "keys": ["真祖", "True Ancestor", "真祖血统", "真祖本能"],
+      "scanDepth": 3,
+      "selective": false,
+      "tokenBudget": 420
+    },
+    {
+      "comment": "死徒",
+      "content": "死徒是由人类堕转而来的吸血种，或由其他吸血存在传播诞生的怪物。她们是教会埋葬机关与代行者的重要讨伐对象。死徒与真祖不同，更接近被欲望与异化支配的存在；其中最危险的一批被称为二十七祖。",
+      "enabled": true,
+      "id": "tsukihime-dead-apostle",
+      "keys": ["死徒", "Dead Apostle", "吸血鬼", "二十七祖"],
+      "scanDepth": 3,
+      "selective": true,
+      "tokenBudget": 420
+    },
+    {
+      "comment": "远野志贵",
+      "content": "《月姬》的主人公远野志贵拥有“直死之魔眼”，能够看见万物的“死”，并以刀沿着死线切断对象的存在。这一能力让他足以威胁本不该被人类杀死的存在，也让他深度卷入爱尔奎特、罗亚与远野家秘密之中。",
+      "enabled": true,
+      "id": "tsukihime-shiki",
+      "keys": ["远野志贵", "志贵", "直死之魔眼", "Mystic Eyes of Death Perception"],
+      "scanDepth": 3,
+      "selective": true,
+      "tokenBudget": 420
+    },
+    {
+      "comment": "远野家",
+      "content": "远野家是月姬世界中的名门之一，背后隐藏着与“混血”“反转冲动”相关的黑暗血统与家系秘密。志贵回归远野邸后，逐步被卷入秋叶、SHIKI以及远野家过往的惨剧与真相之中。",
+      "enabled": true,
+      "id": "tsukihime-tohno",
+      "keys": ["远野家", "远野邸", "混血", "远野秋叶", "SHIKI"],
+      "scanDepth": 3,
+      "selective": true,
+      "tokenBudget": 360
+    },
+    {
+      "comment": "罗亚与教会",
+      "content": "罗亚是月姬主线中的关键敌人之一，以转生与寄宿延续存在。与之相关的，还有教会侧的代行者与埋葬机关，她们负责追猎吸血种与异端。希耶尔便是与罗亚事件密切相关的重要人物，代表教会势力与另一条叙事主线。",
+      "enabled": true,
+      "id": "tsukihime-roa-church",
+      "keys": ["罗亚", "Roa", "教会", "埋葬机关", "代行者", "希耶尔"],
+      "scanDepth": 3,
+      "selective": true,
+      "tokenBudget": 380
+    },
+    {
+      "comment": "月姬基调",
+      "content": "《月姬》的基调是现代都市传说、血与月、私密情感、危险亲密关系与家系秘密交织的黑暗幻想。叙事不应写成泛奇幻冒险，而应保持夜晚、异样感、吸血种威胁、教会猎人与古老存在之间的张力。",
+      "enabled": true,
+      "id": "tsukihime-tone",
+      "keys": ["月姬基调", "叙事风格", "氛围"],
+      "scanDepth": 2,
+      "selective": false,
+      "tokenBudget": 280
+    }
+  ],
+  "name": "月姬世界观设定",
+  "tags": ["月姬", "TYPE-MOON", "默认模板"]
+}

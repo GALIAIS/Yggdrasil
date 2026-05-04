@@ -1,0 +1,31 @@
+{
+  "name": "yggdrasil-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.0.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "pnpm dev:tauri",
+    "dev:renderer": "pnpm --filter @yggdrasil/renderer dev",
+    "dev:tauri": "pnpm --filter @yggdrasil/tauri dev",
+    "dev:tauri:hot": "pnpm dev:tauri",
+    "dev:tauri:renderer": "pnpm --filter @yggdrasil/renderer dev",
+    "dev:tauri:verbose": "pnpm --filter @yggdrasil/tauri dev:verbose",
+    "dev:tauri:no-watch": "pnpm --filter @yggdrasil/tauri dev:no-watch",
+    "build:renderer": "pnpm --filter @yggdrasil/renderer build",
+    "build:tauri": "pnpm --filter @yggdrasil/tauri build",
+    "build:tauri:release": "pnpm --filter @yggdrasil/tauri build:release",
+    "package:tauri": "pnpm --filter @yggdrasil/tauri package",
+    "package:tauri:msi": "pnpm --filter @yggdrasil/tauri package:msi",
+    "lint:renderer": "pnpm --filter @yggdrasil/renderer lint",
+    "test:renderer": "pnpm --filter @yggdrasil/renderer test"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "msw",
+      "protobufjs"
+    ]
+  }
+}
